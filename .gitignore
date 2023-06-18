@@ -1,0 +1,7 @@
+__pycache__/
+build/
+dist/
+OCR Model/
+*.bmp
+*.png
+test/
