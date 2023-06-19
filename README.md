@@ -28,12 +28,12 @@ This tool uses the win32 library to replace the slower adb library, and can also
     
 | Button | Key | var of ".env" |
 | -------- | -------- | -------- |
-| refresh - 刷新 | z | UPDATE_KEY |
-| Confirm - 確認 | x | CONFIRM_KEY |
-| Drag up - 向上滑動 | F2 | SCROLLING_KEY |
-| Buy - 購買 | y | BUY_KEY |
+| refresh - 刷新 | `z` | `UPDATE_KEY` |
+| Confirm - 確認 | `x` | `CONFIRM_KEY` |
+| Drag up - 向上滑動 | `F2` | `SCROLLING_KEY` |
+| Buy - 購買 | `y` | `BUY_KEY` |
 
-* Setting in ".env" file: - 在".env"檔案裡的設定
+* Setting in `.env` file: - 在`.env`檔案裡的設定
 ```
 UPDATE_KEY = 'z'
 CONFIRM_KEY = 'x'
