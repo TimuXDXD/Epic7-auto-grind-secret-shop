@@ -1,3 +1,4 @@
+from version import __version__
 from dotenv import load_dotenv
 from frame_op import *
 from win32lib import *
@@ -10,7 +11,7 @@ CB_COUNT = 0
 MM_COUNT = 0
 
 def buy(hwnd, frame, pos: tuple):
-    
+
     print('Buying...')
 
     # Find buy button
@@ -70,6 +71,9 @@ def refresh(hwnd):
     return True
 
 if __name__ == '__main__':
+
+    print('Epic 7 Automatic Grinding Tool - version {}'.format(__version__))
+    print('='*50)
 
     title = 'Epic 7'
 
