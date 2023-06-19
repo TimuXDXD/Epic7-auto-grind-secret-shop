@@ -1,4 +1,4 @@
-## Epic 7 Secret Shop Automatic Grinding Tool - 第七史詩自動刷神秘商店小工具
+## Epic 7 Secret Shop 「Semi」-Automatic Grinding Tool - 第七史詩「半」自動刷神秘商店小工具
 
 ### Intro - 簡介
 This tool uses the win32 library to replace the slower adb library, and can also be executed in the background. - 本工具使用win32庫替代較慢的adb庫，並同樣可以後台執行
@@ -12,6 +12,7 @@ This tool uses the win32 library to replace the slower adb library, and can also
 ### How to use - 如何使用
 1. Download `autoSSv1.0.zip` from [releases](https://github.com/TimuXDXD/Epic7-auto-grind-secret-shop/releases/tag/v1.0) and unzip it. - 下載 `autoSSv1.0.zip` 檔並解壓縮
 2. The window name of bluestack needs to be set to "Epic 7". - Bluestack 的視窗名稱需要設置為「Epic 7」
+![](https://hackmd.io/_uploads/BJtmQWCw3.png)
 3. When using tools, the starting screen must be in the secret shop. - 使用工具時起始畫面須在神秘商店
 4. You will need to add bluestack built-in game control buttons, and modify the settings in the ".env" file according to the set values. - 你會需要新增bluestack內建的遊戲控制按鈕，並根據設定的值修改「.env」檔案中的設定值
 * For example the following - 例如以下
