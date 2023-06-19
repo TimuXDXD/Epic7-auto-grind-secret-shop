@@ -44,8 +44,7 @@ BUY_KEY = 'y'
     * You can stop the program at any time by typing `ctrl+c`. - 你可以在任何時候輸入`ctrl+c`停止程式
 
 ### Debug Requires 調試需求
-> If you are only using exe files then you can ignore debug requirements.
-> 如果你只使用exe檔案，那麼可以忽略調試需求
+> If you are only using exe files then you can ignore debug requirements. - 如果你只使用exe檔案，那麼可以忽略調試需求
 
 * Python >= 3.9
 * Install packages with pip
