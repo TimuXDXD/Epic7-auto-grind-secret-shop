@@ -10,9 +10,10 @@ This tool uses the win32 library to replace the slower adb library, and can also
 4. **There is no guarantee that the account will not be banned by the official, and I do not assume any responsibility. - 不保證不會被官方鎖帳號，本人不承擔任何責任**
 
 ### How to use - 如何使用
-1. The window name of bluestack needs to be set to "Epic 7". - Bluestack 的視窗名稱需要設置為「Epic 7」
-2. When using tools, the starting screen must be in the secret shop. - 使用工具時起始畫面須在神秘商店
-3. You will need to add bluestack built-in game control buttons, and modify the settings in the ".env" file according to the set values. - 你會需要新增bluestack內建的遊戲控制按鈕，並根據設定的值修改「.env」檔案中的設定值
+1. Download `autoSSv1.0.zip` from [releases](https://github.com/TimuXDXD/Epic7-auto-grind-secret-shop/releases/tag/v1.0) and unzip it.- 下載 `autoSSv1.0.zip` 檔並解壓縮
+2. The window name of bluestack needs to be set to "Epic 7". - Bluestack 的視窗名稱需要設置為「Epic 7」
+3. When using tools, the starting screen must be in the secret shop. - 使用工具時起始畫面須在神秘商店
+4. You will need to add bluestack built-in game control buttons, and modify the settings in the ".env" file according to the set values. - 你會需要新增bluestack內建的遊戲控制按鈕，並根據設定的值修改「.env」檔案中的設定值
 * For example the following - 例如以下
     * 'z' as refresh key - 'z'為刷新鍵
     ![](https://hackmd.io/_uploads/HJZ4CJAP2.png)
@@ -38,7 +39,7 @@ CONFIRM_KEY = 'x'
 SCROLLING_KEY = 'F2'
 BUY_KEY = 'y'
 ```
-4. That's it. Open the exe and enter the number of times you want to refresh. - 這樣就完成了，打開exe，並輸入刷新次數。
+5. That's it. Open the `autoSS.exe` and enter the number of times you want to refresh. - 這樣就完成了，打開exe，並輸入刷新次數。
 ![](https://hackmd.io/_uploads/rkqnmxAPn.png)
     * Make sure you have enough gold and skystone. - 確保你的金幣與天空時數量足夠
     * You can stop the program at any time by typing `ctrl+c`. - 你可以在任何時候輸入`ctrl+c`停止程式
