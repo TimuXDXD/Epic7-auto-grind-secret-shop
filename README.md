@@ -1,4 +1,4 @@
-## Epic 7 Secret Shop Automatic Grinding Tool 第七史詩自動刷神秘商店小工具
+## Epic 7 Secret Shop Automatic Grinding Tool - 第七史詩自動刷神秘商店小工具
 
 ### Intro - 簡介
 This tool uses the win32 library to replace the slower adb library, and can also be executed in the background. - 本工具使用win32庫替代較慢的adb庫，並同樣可以後台執行
