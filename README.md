@@ -42,7 +42,7 @@ BUY_KEY = 'y'
 ```
 5. That's it. Open the `autoSS.exe` and enter the number of times you want to refresh. - 這樣就完成了，打開`autoSS.exe`，並輸入刷新次數。
 ![](https://hackmd.io/_uploads/rkqnmxAPn.png)
-    * Make sure you have enough gold and skystone. - 確保你的金幣與天空時數量足夠
+    * Make sure you have enough gold and skystone. - 確保你的金幣與天空石數量足夠
     * You can stop the program at any time by typing `ctrl+c`. - 你可以在任何時候輸入`ctrl+c`停止程式
 
 ### Debug Requires - 調試需求
