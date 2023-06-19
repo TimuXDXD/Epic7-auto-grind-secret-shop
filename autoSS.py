@@ -10,14 +10,18 @@ CB_COUNT = 0
 MM_COUNT = 0
 
 def buy(hwnd, frame, pos: tuple):
+    
     print('Buying...')
-    img = frame[pos[1]:pos[1]+72, pos[0]:, :]
-    res_x, res_y, val = find_template(img, 'buy', center=True)
+
+    # Find buy button
+    # img = frame[pos[1]:pos[1]+72, pos[0]:, :]
+    # res_x, res_y, val = find_template(img, 'buy', center=True)
     # print(res_x, res_y, val)
     
-    click_pos(hwnd, (pos[0] + res_x, pos[1] + res_y))
+    # Use relative position for compatibility with any language
+    click_pos(hwnd, (pos[0] + 450, pos[1] + 51)) # The center position of the buy button relative to the item is (+450, +51) when window size is (1000, 577)
     time.sleep(0.4)
-    click_key(hwnd, 'y')
+    click_key(hwnd, os.getenv('BUY_KEY'))
     time.sleep(0.5)
 
 def find_store(hwnd):
@@ -54,7 +58,7 @@ def refresh(hwnd):
     # print(res)
 
     # Scroll
-    time.sleep(0.5)
+    time.sleep(0.4)
     print('Scrolling...')
     click_key(hwnd, os.getenv('SCROLLING_KEY'))
     time.sleep(1.5)
@@ -127,5 +131,5 @@ if __name__ == '__main__':
                 print('='*50 + '\nCounts: {}'.format(count))
                 if not refresh(in_hwnd):
                     break
-                print('Total: 聖約書籤 = {}, 神秘獎牌 = {}'.format(CB_COUNT, MM_COUNT))
+                print('Total: Covenant bookmarks = {}, Mystic medals = {}'.format(CB_COUNT, MM_COUNT))
     input('Enter any key to close...')

@@ -2,13 +2,11 @@ import win32gui
 import win32ui
 import win32api
 import win32con
-from win32lib import *
 import numpy as np
 import cv2
 from PIL import Image
 from pathlib import Path
 import os
-import time
 
 TEMPLATE_MAP = {
         'cb': 'template/CB_template.bmp',
@@ -77,16 +75,6 @@ def grabScreen_backend(hwnd, filename='screenshot.bmp', savefile=False):
 
     return img
 
-def buy(hwnd, frame, pos: tuple):
-    img = frame[pos[1]:pos[1]+72, pos[0]:, :]
-    res_x, res_y, val = find_template(img, 'buy', center=True)
-    # print(res_x, res_y, val)
-    
-    click_pos(hwnd, (pos[0] + res_x, pos[1] + res_y))
-    time.sleep(0.4)
-    click_key(hwnd, 'y')
-    time.sleep(0.5)
-
 if __name__ == '__main__':
 
     out_hwnd = win32gui.FindWindow(None, 'Epic 7')
@@ -100,4 +88,4 @@ if __name__ == '__main__':
     
     in_hwnd = hwndChilddict['HD-Player']
 
-    img = grabScreen_backend(in_hwnd, filename='exception.bmp', savefile=True)
+    # img = grabScreen_backend(in_hwnd, filename='exception.bmp', savefile=True)
