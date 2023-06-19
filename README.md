@@ -29,7 +29,7 @@ This tool uses the win32 library to replace the slower adb library, and can also
 | refresh - 刷新 | z | UPDATE_KEY |
 | Confirm - 確認 | x | CONFIRM_KEY |
 | Drag up - 向上滑動 | F2 | SCROLLING_KEY |
-| BUY_KEY - 購買 | y | BUY_KEY |
+| Buy - 購買 | y | BUY_KEY |
 
 * Setting in ".env" file: - 在".env"檔案裡的設定
 ```
