@@ -10,7 +10,7 @@ This tool uses the win32 library to replace the slower adb library, and can also
 4. **There is no guarantee that the account will not be banned by the official, and I do not assume any responsibility. - 不保證不會被官方鎖帳號，本人不承擔任何責任**
 
 ### How to use - 如何使用
-1. Download `autoSSv1.0.zip` from [releases](https://github.com/TimuXDXD/Epic7-auto-grind-secret-shop/releases/tag/v1.0) and unzip it. - 下載 `autoSSv1.0.zip` 檔並解壓縮
+1. Download `autoSSv1.0.zip` from [releases](https://github.com/TimuXDXD/Epic7-auto-grind-secret-shop/releases/tag/v1.0) and unzip it. - 在[releases](https://github.com/TimuXDXD/Epic7-auto-grind-secret-shop/releases/tag/v1.0)下載 `autoSSv1.0.zip` 檔並解壓縮
 2. The window name of bluestack needs to be set to `Epic 7`. - Bluestack 的視窗名稱需要設置為`Epic 7`
 ![](https://hackmd.io/_uploads/BJtmQWCw3.png)
 3. When using tools, the starting screen must be in the secret shop. - 使用工具時起始畫面須在神秘商店
@@ -25,7 +25,7 @@ This tool uses the win32 library to replace the slower adb library, and can also
     * `y` as buy key - `y`為購買鍵
     ![](https://hackmd.io/_uploads/rkPkMl0Dh.png)
     * Done - 完成
-    
+
 | Button | Key | var of ".env" |
 | -------- | -------- | -------- |
 | refresh - 刷新 | `z` | `UPDATE_KEY` |
